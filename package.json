@@ -1,0 +1,13 @@
+{
+  "name": "regret-lift",
+  "version": "1.0.0",
+  "description": "REGRET LIFT - online 3D elevator game",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

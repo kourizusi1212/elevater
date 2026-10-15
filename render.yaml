@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: regret-lift
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
